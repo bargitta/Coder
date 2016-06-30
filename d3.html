@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>d3 line chart zoom in/out and panning</title>
+<meta charset="utf-8">
+<style>
+    h1 {
+        font: 40px Helvetica Neue;
+        fill: #666;
+        text-align: center;
+    }
+    svg{
+        display: block;
+        margin: auto;
+    }
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+    .axis text {
+        fill: #000;
+    }
+    .axis-title{
+        font: 22px sans-serif;
+    }
+    .no-tick text{
+        display:none
+    }
+    .axis .tick line {
+        stroke: rgba(0, 0, 0, 0.1);
+    }
+
+    .y1 {
+        fill: white;
+        stroke: orange;
+        stroke-width: 1.5px;
+    }
+
+    .y2 {
+        fill: white;
+        stroke: red;
+        stroke-width: 1.5px;
+    }
+
+    .y3 {
+        fill: white;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+
+    .line {
+        fill: none;
+        stroke-width: 1.5px;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 50px;
+        height: 10px;
+        padding: 5px;
+        font: 10px sans-serif;
+        background: whiteSmoke;
+        border: solid 1px #aaa;
+        pointer-events: none;
+        box-shadow: 2px 2px 1px #888;
+    }
+
+    .legend {
+        padding: 5px;
+        font: 10px sans-serif;
+        background: yellow;
+        box-shadow: 2px 2px 1px #888;
+    }
+    .legend-line{
+        stroke-width: 2px;
+    }
+    .legend-text{
+        font-size: 16px;
+    }
+    .title {
+        font: 13px sans-serif;
+    }
+
+    .chartGrid .tick line{
+        stroke: lightgrey;
+        opacity: 0.5;
+    }
+
+    .chartGrid path {
+        stroke-width: 0;
+    }
+
+</style>
+</head>
+<body>
+<h1>Sensitivity Chart</h1>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="javascripts/d3script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "sppa": 100,
+      "bitDepth":245
+    }
+  ],
+  [
+    {
+      "sppa": 200,
+      "bitDepth":245
+    }
+  ],
+  [
+    {
+      "sppa": 300,
+      "bitDepth":245
+    }
+  ],
+  [
+    {
+      "sppa": 400,
+      "bitDepth":245
+    }
+  ],
+  [
+    {
+      "sppa": 500,
+      "bitDepth":245
+    }
+  ]
+]
