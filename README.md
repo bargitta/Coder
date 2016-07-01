@@ -1,6 +1,6 @@
 ### Coder
 
-Hi, see the running site in github.io [here](http://bargitta.github.io/Coder/)
+Hi, see the running site on github.io [here](http://bargitta.github.io/Coder/)
 This site just includes some fun and useful examples in frontend
 
 I'll update it frquently:sunny:
